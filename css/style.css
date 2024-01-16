@@ -43,6 +43,7 @@ body{
       
       input:checked ~ ul{
         display:block;
+        
       }
 
       input#menu {
@@ -821,7 +822,7 @@ body{
 }
 
 /* STYLE FOR PC */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width:1280){
 
   /* ESTILOS NAVEGADOR */
     .navegador-pagina{
