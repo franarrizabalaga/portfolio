@@ -41,11 +41,11 @@ body{
         display: none;
       }
       
-      input:checked  ~ ul{
+      input:checked ~ ul{
         display:block;
       }
 
-      #none {
+      input#menu {
         display: none;
        }
 
@@ -367,13 +367,14 @@ body{
         padding: 35px;
         margin: auto;
         width: 90%;
-        max-width: 300px;
+        max-width: 70vw;
         text-align: center;
         margin-top: 60px;
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 20px;
         color:rgb(252, 123, 233) ;
         display: flex;
+        justify-content: center;
       }
   
       label {
@@ -414,6 +415,9 @@ body{
         font-family:'Silkscreen', sans-serif; ;
         font-size: 1rem;
         max-width: 300px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
       }
   
       button:hover {
